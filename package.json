@@ -2,6 +2,10 @@
   "name": "@nationalarchives/stylelint-config",
   "version": "0.1.0",
   "description": "A global Stylelint config for The National Archives",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
   "scripts": {
     "test": "! (echo '@viewport{}@media tty{}a{clip:rect(0,0,0,0)}' | stylelint --config stylelint.config.js)",
     "prettier": "npx prettier --write ."
@@ -16,11 +20,12 @@
     "url": "https://andrewhosgood.dev"
   },
   "license": "MIT",
+  "main": "index.mjs",
   "bugs": {
     "url": "https://github.com/nationalarchives/stylelint-config/issues"
   },
   "homepage": "https://github.com/nationalarchives/stylelint-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "stylelint": "^17.11.1",
     "stylelint-config-standard-scss": "^17.0.0",
     "stylelint-order": "^8.1.1",
