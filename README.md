@@ -18,3 +18,9 @@ export default {
   extends: ["@nationalarchives/stylelint-config"],
 };
 ```
+
+## Dependencies and plugins
+
+- [stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss)
+- [stylelint-order](https://github.com/hudochenkov/stylelint-order)
+- [stylelint-selector-bem-pattern](https://github.com/simonsmith/stylelint-selector-bem-pattern)

@@ -1,6 +1,6 @@
 {
   "name": "@nationalarchives/stylelint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A global Stylelint config for The National Archives",
   "keywords": [
     "stylelint",
@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/nationalarchives/stylelint-config#readme",
   "dependencies": {
-    "stylelint": "^17.11.1",
+    "stylelint": "^17.0.0",
     "stylelint-config-standard-scss": "^17.0.0",
-    "stylelint-order": "^8.1.1",
+    "stylelint-order": "^8.0.0",
     "stylelint-selector-bem-pattern": "^5.0.0"
   }
 }
