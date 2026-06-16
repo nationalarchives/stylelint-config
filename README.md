@@ -19,6 +19,10 @@ export default {
 };
 ```
 
+## Ignored files
+
+This config tests all stylesheets except for `**/*.css` files, as these are assumed to be compiled.
+
 ## Dependencies and plugins
 
 - [stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss)
