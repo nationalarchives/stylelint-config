@@ -1,6 +1,6 @@
 {
   "name": "@nationalarchives/stylelint-config",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A global Stylelint config for The National Archives",
   "keywords": [
     "stylelint",
