@@ -1,7 +1,11 @@
 /** @type {import('stylelint').Config} */
 export default {
   extends: ["stylelint-config-standard-scss"],
-  plugins: ["stylelint-selector-bem-pattern", "stylelint-order"],
+  plugins: [
+    "stylelint-selector-bem-pattern",
+    "stylelint-order",
+    "stylelint-plugin-use-baseline",
+  ],
   ignoreFiles: ["**/*.css"],
   rules: {
     "at-rule-empty-line-before": null,
